@@ -1,0 +1,103 @@
+font-awesome-
+<i class="fab fa-apple"></i>
+<i class="fa fa-android" aria-hidden="true"></i>
+<i class="fa fa-windows" aria-hidden="true"></i>
+
+
+
+color-
+yellow:#fcdb00;
+h1-black:#010101;
+h3-color:#313841;
+p1:#898989;
+p2:#555555;
+
+
+h1
+md-32px sm-28px col-25px
+
+
+    <!-- Slider start -->
+    <section class="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- slider -->
+            <div id="carouselEx" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators cid">
+              <li data-target="#carouselEx" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselEx" data-slide-to="1"></li>
+              <li data-target="#carouselEx" data-slide-to="2"></li>
+            </ol>
+            <!-- carousel inner -->
+            <div class="carousel-inner">
+              <!-- item -->
+              <div class="carousel-item active">
+                <div class="row">
+                  <!-- slider-text -->
+                  <div class="col-lg-5 col-md-5">
+                    <div class="s_text">
+                      <h1>Inspire your inspiration</h1>
+                      <h3>Simple to use for your app, products showcase and your inspiration</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In quis arcu et eros porta lobortis sit </p>
+                      <ul class="list-inline s_icon">
+                        <li class="list-inline-item">
+                          <i class="fab fa-apple"></i>
+                          <i class="fa fa-android" aria-hidden="true"></i>
+                          <i class="fa fa-windows" aria-hidden="true"></i>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- slider-img -->
+                  <div class="offset-lg-2 col-lg-5 offset-md-2 col-md-5">
+                    <div class="s_img text-center">
+                      <img src="images/tab.png" class="img-fluid" alt="Tinyone">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- item -->
+            </div>
+          </div>
+            <!-- slider -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slider end -->
+
+
+
+
+       <header>
+      <div class="container">
+        <!-- nav start -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img class="img-fluid logo" src="images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarS" aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarS">
+              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.himl">Features</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BLog</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- nav end -->
+      </div>
+    </header>
